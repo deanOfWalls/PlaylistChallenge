@@ -9,6 +9,8 @@ The player has two buttons for switching between songs in the playlist, ↑ (up)
 
 You're currently listening to song sk and decide you want to switch to some other song, q, in your playlist. What is the minimum number of button presses needed to switch from song sk to song q?
 
+sk (song you start on)
+s
  
 
 Note: The same song may appear multiple times in the playlist. It is guaranteed that song q is in the playlist.
@@ -21,6 +23,17 @@ An array of n strings, songs, where the value of each element si corresponds to 
 An integer, k, the index of song sk.
 A string, q, the name of the song you wish to switch to.
 It must return an integer denoting the minimum number of button presses needed to switch from song sk to song q.
+
+k = array index
+
+q = string name of song you want to switch to
+k = (randomly generated so we have a random starting song)
+String Arr k (this is the array that contains all song titles)
+
+
+
+
+
 
  
 
